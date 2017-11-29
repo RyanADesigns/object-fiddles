@@ -8,9 +8,12 @@
 
   //Code here
 
+let me = {
+  name: 'Ryan Stupey',
+  age: '22',
+}
 
-
-
+//alert(me.name);
 
 
 //NEXT PROBLEM
@@ -21,6 +24,15 @@
 //Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
 
   //Code here
+
+let favoriteThings = {
+  band: 'Bastille',
+  food: 'tequila',
+  person: 'Tim Roth',
+  movie: 'Peter Pan',
+  book: 'figs On branches',
+  holiday: 'Christmas',
+}
 
 
 
@@ -33,20 +45,25 @@
   //Code here
 
 
-
-
+favoriteThings.car = 'plymouth sundance';
+favoriteThings.brand = 'coke';
 
 //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 
   //Code here
 
 
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 //NEXT PROBLEM
 
+let backPack = {};
 
+let item = 'firstPocket';
+
+backPack[item] = 'chapstick';
 
 /* 
 Create an empty Object called backPack. Now, create a variable called 'item'
@@ -57,6 +74,9 @@ Set the value of that key to 'chapstick'.
 Using dot notation, add another key (or property) to your backPack object
 that is named color, with the value being the color of your backpack. 
 */
+
+alert(backPack.firstPocket);                                                                            
+
 
   //Code here
 
@@ -100,6 +120,8 @@ var user2 = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
+user2.email = 'tyler.mcginnis@devmounta.in';
+user2.name = 'Tyler S. McGinnis';
 
 
 
